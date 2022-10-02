@@ -1,22 +1,12 @@
 
 *{
     font-family:'Noto Sans Mono', monospace;
-    
+
 }
 
-#encabezado
-{
-  
-    display: inline-block;
-    padding:10px;
-    margin-left: 10px;
-    width: 500px;
-    height: 100px;
-    background-color: aqua;
-}
 
 h1{
-    padding:10px;
+
 }
 
 img{
