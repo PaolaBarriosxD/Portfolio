@@ -7,6 +7,8 @@
     <meta name="keywords" content="portfolio, pagina web, html, css">
     
     <title>Mi portfolio</title>
+    <link rel="shortcut icon" href="pbarrios.ico.png">
+
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" type="text/css" href="estilos.css">
@@ -15,98 +17,135 @@
 
 
 <body>
-    <header id="Inicio">
-        <h2>Paola Barrios - Mi portfolio</h2>
-        <nav>
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
+    <div class="CajaEncabezado">
+        <header class="encabezado"id="Inicio">
+                <h2 class="encabezado__h2"> [Mi portfolio]</h2>
 
-                <li><a href="#sobre mi">Sobre mi</a></li>
-                <li><a href="#Conocimientos">Conocimientos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+            <nav class="encabezado__nav">
+
+
+                        <a href="#Inicio" class="encabezado__ainicio">Inicio</a>
+                      <a href="#sobre mi" class="encabezado__asobremi">Sobre mi</a>
+        
+                       <a href="#Conocimientos" class="encabezado__aconocimientos">Conocimientos</a>
+                      <a href="#contacto" class="encabezado__acontacto">Contacto</a>
+                
+            </nav>
+        </header>
+        
+        <h3 class="encabezado__h3">Paola Barrios</h3>
+    </div>
 
     <article id="sobre mi" class="sobreMi">
-        <section class="sobreMi-section">
-            <div>
-                <h1 class="sobreMi-section__h1">Paola E. Barrios</h1>
-                <p class="sobreMi-section__p"><b>¡Hola!</b> Mi nombre es <b>Paola Elizabeth Barrios</b>. <br> Estoy buscando desempeñarme como programadora de software.</p>
-                <div>
-                    <p>
-                        Estudio actualmente en la <a href="https://www.frgp.utn.edu.ar/" target="_BLANK" src="UTN frgp">Universidad Tecnologica Nacional Regional Pacheco.</a>
-                        <br>
-                        Estoy en 2° año de la<a href="https://www.frgp.utn.edu.ar/carreras/tup_tuss" target="_BLANK" src="tusi"> Tecnicatura universitaria en programacion.</a>
-                        <br>
-                        Llevo aprobadas <a href="materiasAprobadas.PNG" target="_BLANK" src="imagen sysacada estado academico">14 materias hasta el dia de la fecha (2/10/2022).</a>
-                    </p>
-                </div>
-                
-            </div> 
-        </section>
-
-        <section id="Conocimientos">
-            <div>
-                <h3>Conocimientos</h3>
-            </div>
-            <div>
-               <div>
-                    <ul>
-                        <h4> Lenguajes de programacion</h4>
-                        <li>C ++</li>
-                        <li>Introduccion a SQL</li>
-                        <li>Introduccion a C#</li>
-                        <li>Introduccion a CSS3 y HTML5</li>
-                    </ul>
-               </div>
-                <div>
-                        <ul>
-                            <H4>Informatica general</H4>
-                            <li>Paquete Office</li>
-                            <li>Arreglo de PCs</li>
-                            <li>Adobe Illustrator</li>
-                        </ul>
-                </div>
-                <div>
+        <div class="CajaSobreMi">
+            <section class="sobreMi-section">
+                <div class="sobreMi-section__div">
+                    <h1 class="sobreMi-section__h1">PAOLA E. BARRIOS</h1>
+                    <p class="sobreMi-section__p"><b>¡Hola!</b> Mi nombre es <b>Paola Elizabeth Barrios</b>. <br> Estoy buscando desempeñarme como programadora de software.</p>
+                    <div class="sobreMi-section__divsoy">
+                        <p>
+                            Estudio actualmente en la <a href="https://www.frgp.utn.edu.ar/" target="_BLANK" src="UTN frgp" class="CajaSobreMi__autn">Universidad Tecnologica Nacional Regional Pacheco.</a>
+                            <br>
+                            Estoy en 2° año de la<a href="https://www.frgp.utn.edu.ar/carreras/tup_tuss" target="_BLANK" class="CajaSobreMi__autn"> Tecnicatura universitaria en programacion.</a>
+                            <br>
+                            Llevo aprobadas <a href="materiasAprobadas.PNG" target="_BLANK" class="CajaSobreMi__autn">14 materias hasta el dia.</a>
+                        </p>
+                    </div>
                     
-                    <ul>
-                        <h4>Sistemas operativos</h4>
-                        <li>Windows (xp, 7, 8, 10, 11)</li>
-                        <li>Linux (UBUNTU, DEBIAN, KALI)</li>
-                    </ul>
+                </div> 
+            </section>
+        </div>
+    
+        <div class="divconocimientos__h3"><h3>Conocimientos</h3></div>
+
+        <div class="CajaConocimientos">
+            <section id="Conocimientos" class="sobreMi-Conocimientos">
+
+                <div class="CajaConocimientos__divInterno">
+                   <div class="CajaConocimientos__divLenguajes">
+                        <ul>
+                            <h4 class="CajaConocimientos__h4"> Lenguajes de programacion</h4>
+                            <br>
+                            <li>C ++</li>
+                            <br>
+                            <li>SQL</li>
+                            <br>
+                            <li>C# nivel inicial</li>
+                            <br>
+                            <li>Introduccion a CSS3 y HTML5</li>
+                        </ul>
+                   </div>
+                    <div class="CajaConocimientos__divInformatica">
+                            <ul>
+                                <H4 class="CajaConocimientos__h4">Informatica general</H4>
+                                <br>
+                                <li>Paquete Office</li>
+                                <br>
+                                <li>Arreglo de PCs</li>
+                                <br>
+                                <li>Adobe Illustrator</li>
+                            </ul>
+                    </div>
+                    <div class="CajaConocimientos__divSistemas">
                         
+                        <ul>
+                            <h4 class="CajaConocimientos__h4">Sistemas operativos</h4>
+                            <br>
+                            <li>Windows (xp, 7, 8, 10, 11)</li>
+                            <br>
+                            <li>Linux (UBUNTU, DEBIAN, KALI)</li>
+                        </ul>
+                            
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+    
+        </div>
+        
+        
+            <section class="seccion-contacto">
+                <h5 class="Contacto__h5">Contacto: </h5>
+                <div class="contenedorflex">
+                    
+                
+                    <form action="" class="formulario">
+                    
+                        <div class="">
+
+                            <input type="email" id="txtuser" class="formulario__input" placeholder="Escriba su email aquí...">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" class="formulario__input" placeholder="Escriba el asunto aquí...">
+                        </div>
+                        <br>
+                        <div class="formulario-textarea">
+                            <textarea maxlength="300" class="formulario__input" placeholder="Escriba su consulta aqui..."></textarea>
+                        </div>
+                        <div class="formulario-buton">
+                            <input type="submit" value="Enviar consulta" class="formulario__input">
+                        </div>
+                    
+                    </form>
+                    <div class="formulario-img">
+                        <img src="email.png" >
+                    </div>
+                </div>
+            </section>
+        
+
 
     </article>
 
-    <footer id="contacto">
-        <h5>Contacto: </h5>
-        <p>
-            
-        </p>
+    <div class="cajaFooter">
+        <footer id="contacto" class="Contacto">
 
-        <form action="">
-           <div>
-            <label for="">Email</label>
-            <input type="email" id="txtuser">
-           </div>
-           <br>
-           <div>
-            <label for=""> Comentario </label>
-            <textarea></textarea>
-           </div>
-           <div>
-            <input type="submit" value="Enviar">
-           </div>
-        </form>
-        
-        <a href="" src="">Instagram</a>
-        <a href="" src="">GitHub</a>
-        <a href="" src="">WhatsApp</a>
-    </footer>
+            <a href="" src=""class="cajaFooter__a">Instagram</a>
+            <a href="https://github.com/PaolaBarriosxD" target="BLANK" src="" class="cajaFooter__a">GitHub</a>
+            <a href=" https://wa.me/+5491125396544" target="BLANK" src="" class="cajaFooter__a">WhatsApp</a>
+        </footer>
+    </div>
+
     
 </body>
 

@@ -1,17 +1,262 @@
 
 *{
-    font-family:'Noto Sans Mono', monospace;
-
+    font-family:Georgia, 'Times New Roman', Times, serif/*'Noto Sans Mono', monospace*/;
+    padding:0px;
+    margin:0px;
+    scroll-behavior: smooth;
 }
 
 
-.sobreMi-section__h1{
-    font-size: 30px;
+ul{
+    list-style: none;
 }
 
-img{
+.header
+{
+    margin: 10px;
+}
+
+a{
+    color:#40C4D1;
+}
+
+
+.encabezado__nav
+{
+    text-align: center;
+    margin-left: 100px;
+    margin-top:30px;
     display:inline-block;
-    width: 50px;
-    height: 60px;
-    background-color: aqua;
+    
 }
+
+.encabezado__h2
+{
+
+
+    width: 300px;
+    height: 55px;
+    padding-top: -10px;
+    margin-bottom: -20px;
+    margin-left:20px;
+    display: inline-block;
+   
+}
+.encabezado__h3
+{
+    margin-left:12px;
+    padding-left:30px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.CajaEncabezado{
+    background-color: black; 
+    color:#40C4D1;
+    padding-top: 10px;
+
+}
+
+.encabezado__ainicio{
+    padding:20px;
+    padding-top: 10px;
+}
+
+.encabezado__asobremi{
+    padding:20px;
+    padding-top: 10px;
+}
+
+.encabezado__aconocimientos{
+    padding:20px;
+    padding-top: 10px;
+}
+
+.encabezado__acontacto
+{
+    padding-top: 10px;
+    padding:20px;
+}
+
+
+
+.CajaSobreMi{
+
+    margin:75px;
+    text-align: center;
+
+}
+
+
+.sobreMi-section__h1
+{
+
+    padding: 20px;
+}
+
+.sobreMi-section__p
+{
+    font-size: 20px;
+}
+.sobreMi-section__divsoy
+{
+    font-size: 17px;
+    padding:20px;
+    margin:30px;
+}
+
+.CajaSobreMi__autn
+{
+    color:#3696A0;
+}
+
+.divconocimientos__h3
+{
+    background-color: #272730;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:#40C4D1;
+}
+
+.CajaConocimientos__divInterno
+{
+    display: inline-block;
+}
+
+
+
+
+.CajaConocimientos
+{
+    background-color: #000000;
+    text-align: center;
+    padding:50px;
+
+}
+
+.CajaConocimientos__h4
+{
+    font-size: 15px;
+}
+
+.CajaConocimientos__divLenguajes
+{
+    border-radius: 15px;
+    padding:20px;
+    background-color: #40C4D1;
+    display: inline-block;
+    font-size: 12px;
+    margin:30px;
+}
+
+.CajaConocimientos__divInformatica
+{
+    
+    border-radius: 15px;
+    background-color: #40C4D1;
+    display: inline-block;
+    padding:20px;
+    margin:30px;
+    font-size: 12px;
+}
+
+.CajaConocimientos__divSistemas
+{ 
+    border-radius: 15px;
+    background-color: #40C4D1;
+    display: inline-block;
+    padding:20px;
+    font-size: 12px;
+    margin:30px;
+}
+
+
+.Contacto__h5
+{
+    font-size: 17px;
+    padding: 20px;
+}
+
+.seccion-contacto
+{
+    background-color: #135258;
+}
+
+.formulario
+{
+    min-width: 300px;
+    flex:1;
+    padding:50px;
+    text-align: center;
+}
+
+.contenedorflex
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formulario textarea
+{
+    min-width: 150px;
+    height: 200px;
+    resize: none;
+}
+.formulario-img
+{
+    flex:1;
+    
+}
+.formulario-img img
+{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+
+
+.formulario__input
+{
+    width: 50%;
+    padding: 10px;
+    border:none;
+    border-bottom:3px solid #40C4D1;
+    background: transparent;
+
+}
+
+
+.formulario-buton input
+{
+   
+    background:#40C4D1;
+    margin-top:20px;
+    border-radius: 5px;
+}
+
+.formulario__input:focus
+{
+    outline: none;
+    background:#40C4D1;
+    border-bottom:3px solid #40C4D1;
+}
+
+footer{
+
+    padding:20px;
+    color:#40C4D1;
+    background-color: #000000;
+}
+
+
+.cajaFooter__a
+{
+    padding-left: 250px;
+}
+
+
