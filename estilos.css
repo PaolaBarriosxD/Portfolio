@@ -180,7 +180,8 @@ a{
 
 .seccion-contacto
 {
-    background-color: #135258;
+    background-color: #1d6970;
+    padding:30px;
 }
 
 .formulario
@@ -214,7 +215,7 @@ a{
 {
     width: 300px;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 50px;
 
 }
 
@@ -234,7 +235,7 @@ a{
 .formulario-buton input
 {
    
-    background:#40C4D1;
+    background:#135258;
     margin-top:20px;
     border-radius: 5px;
 }
