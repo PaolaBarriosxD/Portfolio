@@ -12,11 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="codigo.js"></script>
 
 </head>
 
 
 <body>
+
+
     <div id="Inicio"class="CajaEncabezado">
         <header class="encabezado"id="Inicio">
                 <h2 class="encabezado__h2"> [Mi portfolio]</h2>
@@ -72,7 +75,9 @@
                             <br>
                             <li>C# nivel inicial</li>
                             <br>
-                            <li>Introduccion a CSS3 y HTML5</li>
+                            <li>Introduccion a lenguajes web</li>
+                            <br>
+                            <li>CSS3, HTML5 Y JavaScript</li>
                         </ul>
                    </div>
                     <div class="CajaConocimientos__divInformatica">
@@ -112,18 +117,18 @@
                     
                         <div class="">
 
-                            <input type="email" id="txtuser" class="formulario__input" placeholder="Escriba su email aquí...">
+                            <input type="email" id="emailUser" class="formulario__input" placeholder="Escriba su email aquí...">
                         </div>
                         <br>
                         <div>
-                            <input type="text" class="formulario__input" placeholder="Escriba el asunto aquí...">
+                            <input type="text" id="asuntoTxt" class="formulario__input" placeholder="Escriba el asunto aquí...">
                         </div>
                         <br>
                         <div class="formulario-textarea">
-                            <textarea maxlength="300" class="formulario__input" placeholder="Escriba su consulta aqui..."></textarea>
+                            <textarea maxlength="300" id="ConsultaTxt" class="formulario__input" placeholder="Escriba su consulta aqui..."></textarea>
                         </div>
                         <div class="formulario-buton">
-                            <input type="submit" value="Enviar consulta" class="formulario__input">
+                            <input  onclick="" type="submit" id="botonEnviar" value="Enviar consulta" class="formulario__input">
                         </div>
                     
                     </form>
@@ -136,6 +141,8 @@
 
 
     </article>
+
+
 
     <div class="cajaFooter">
         <footer  class="Contacto">
